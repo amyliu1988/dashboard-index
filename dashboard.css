@@ -114,14 +114,37 @@
     background: #4d4d4d;
 }
 
-.rectangle_1{
-    background: #f6ae40;
+.rectangle{
     display: block;
     width: 5px;
     height: 5px;
     float: right;
-    margin-right:10px;
     margin-top: 6px;
+    margin-right:10px;
+    background:#f6ae40;
+}
+
+.rectangele_peoplecount{
+    background: #f6ae40;
+}
+
+.rectangele_alerts{
+    background: #f6ae40;
+}
+.rectangle_female{
+    background: #ff675d;
+    float: left;
+}
+.rectangle_male{
+    background: #32a8ad;
+    float: left;
+}
+
+.gender_profiling_rectangle{
+    float: right;
+    position: relative;
+    width: 89px;
+    margin:0 0 0 0;
 }
 .chartbox_nodata{
     background: #282828;
