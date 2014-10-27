@@ -113,6 +113,16 @@
     width: 46.2%;
     background: #4d4d4d;
 }
+
+.rectangle_1{
+    background: #f6ae40;
+    display: block;
+    width: 5px;
+    height: 5px;
+    float: right;
+    margin-right:10px;
+    margin-top: 6px;
+}
 .chartbox_nodata{
     background: #282828;
     height:250px;
