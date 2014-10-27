@@ -109,6 +109,19 @@
     width: 46.2%;
     background: #4d4d4d;
 }
+.chartbox_nodata{
+    background: #282828;
+    height:250px;
+}
+
+.nodata-display{
+    color: #4d4d4d;
+    font-family: Muli, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    line-height: 250px;
+}
 .dashboard-chartbox-content {
     padding: 22px 13px 14px 13px;
     /*min-height: 69%;*/
@@ -135,6 +148,7 @@
     width: 100%;
     min-height: 163px;
 }
+
 .dash-clearfix {
     display: inline-block;
 }
@@ -161,6 +175,7 @@
     line-height: 14.4px;
     font-style: normal;
     font-weight: normal;
+
     font-family: Muli,sans-serif;
     margin: -5px auto -4px 20%;
     float: left;
