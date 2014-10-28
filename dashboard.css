@@ -110,13 +110,14 @@
     background: #4d4d4d;
 }
 
-.rectangle{
+.rectangle_1{
+    background: #f6ae40;
     display: block;
     width: 5px;
     height: 5px;
     float: right;
-    margin-top: 6px;
     margin-right:10px;
+<<<<<<< HEAD
     background:#f6ae40;
 }
 
@@ -151,6 +152,9 @@
 }
 .female_box{
     height: 18px;
+=======
+    margin-top: 6px;
+>>>>>>> parent of a5a5693... gender_profiling rectangles
 }
 .chartbox_nodata{
     background: #282828;
