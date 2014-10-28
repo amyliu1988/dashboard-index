@@ -28,7 +28,7 @@
     padding-left: 25px;
 }
 .dashboard-infobox {
-    display: block;
+    display: inline-block;
     margin: 25px 0 0 25px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -39,11 +39,7 @@
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
-    /*min-width: 30%;*/
-    width:30%;
-    float: left;
-    position: relative;
-
+    min-width: 30%;
     /*min-width: 300px;*/
 }
 .dashboard-infobox-highlight {
@@ -141,10 +137,20 @@
 }
 
 .gender_profiling_rectangle{
-    float: right;
-    position: relative;
+    position: absolute;
     width: 89px;
-    margin:0 0 0 0;
+    /*margin:0 0 auto auto;*/
+    top: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+
+.male_box{
+    height: 18px;
+}
+.female_box{
+    height: 18px;
 }
 .chartbox_nodata{
     background: #282828;
@@ -301,9 +307,7 @@
     display: none;
 }
 
-
-
-@media (max-width: 1015px) {
+@media (max-width: 1070px) {
 .dashboard-infobox {
     min-width: 93%;
     -webkit-border-radius: 3px;
